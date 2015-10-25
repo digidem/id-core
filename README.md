@@ -1,7 +1,6 @@
 # iD-core - core data types from [iDEditor](https://github.com/openstreetmap/iD)
 
-[![build status](https://img.shields.io/
-/digidem/id-core/master.svg)](https://travis-ci.org/digidem/id-core)
+[![build status](https://img.shields.io/travis/digidem/id-core/master.svg)](https://travis-ci.org/digidem/id-core)
 [![npm version](https://img.shields.io/npm/v/id-core.svg)](https://www.npmjs.com/package/id-core)
 
 **ALPHA:** see [TODO](#TODO)
