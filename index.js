@@ -2798,7 +2798,12 @@ iD.oneWayTags = {
         'stream': true
     }
 };
-    module.exports =  {
+module.exports = function(_) {
+    var presets = iD.presets()
+    presets.load(_);
+    iD.areaKeys = presets.areaKeys()
+
+    return {
         Difference: iD.Difference,
         Tree: iD.Tree,
         Entity: iD.Entity,
@@ -2808,5 +2813,7 @@ iD.oneWayTags = {
         Graph: iD.Graph,
         geo: iD.geo,
         presets: iD.presets,
+        areaKeys: iD.areaKeys,
         locale: locale
+    };
 };
