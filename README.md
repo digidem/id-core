@@ -1,3 +1,6 @@
+## Note that this repo is no longer in active development
+
+
 # iD-core - core data types from [iDEditor](https://github.com/openstreetmap/iD)
 
 [![build status](https://img.shields.io/travis/digidem/id-core/master.svg)](https://travis-ci.org/digidem/id-core)
